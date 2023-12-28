@@ -27,3 +27,15 @@ button{
   border:none;
   outline: none;
 }
+h1{
+  font-size: 1.2rem;
+  background-color: grey;
+  padding: 3rem;
+  text-align: center;
+  border-radius:20px;
+  box-shadow: 1px 10px 20px #aaa;
+  color:#fff;
+  /* display: none; */
+  margin: 10px;
+  
+}
