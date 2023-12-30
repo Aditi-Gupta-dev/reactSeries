@@ -9,7 +9,7 @@ body{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .container{
-  margin: 100px auto;
+  margin: 50px auto;
   /* border: 2px solid green; */
   text-align: center;
   width: 200px;
@@ -38,4 +38,42 @@ h1{
   /* display: none; */
   margin: 10px;
   
+}
+.div2{
+  margin:20px;
+  height: 100px;
+  justify-content: center;
+  text-align: center;
+  width: 80%;
+  padding: 1.5rem;
+  border-radius:20px;
+  box-shadow: 1px 10px 20px #aaa;
+  color:#fff;
+
+}
+
+
+input{
+  margin-bottom: 10px;
+  outline: none;
+  color:purple;
+  padding: 5px;
+  border:none;
+  border-bottom:2px solid #aaa;
+
+}
+input::placeholder{
+  color:rgba(128, 128, 128, 0.523);
+  text-transform: capitalize;
+}
+h2{
+  color:purple;
+  text-transform: capitalize;
+  margin-bottom: 2px;
+  font-style: bold;
+
+}
+
+p{
+  margin-bottom: 3px;
 }
