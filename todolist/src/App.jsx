@@ -39,7 +39,7 @@ const App = () => {
         <input type='text' placeholder='ex. buy vegetables' onChange={inputEvent} value={inputList}/>
         {/* value add krna imp hai nahi to input fild empty nahi hoga 😫*/}
         
-        <button onClick={addtoarray} > <AddCircleIcon/> </button>
+        <button onClick={addtoarray} > <AddCircleIcon color="secondary"/> </button>
 
         <ol>
             {/* <li>{inputList}</li> */}

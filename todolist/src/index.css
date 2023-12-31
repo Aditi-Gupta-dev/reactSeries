@@ -28,7 +28,14 @@ background-color: red;
 color:#fff;
  
 }
+.center-div button{
+  background-color: transparent;
+  outline: none;
+  border: none;
+  border-radius: 40%;
+
+}
 .center-div button:hover{
-  background-color:blue;
+  /* background-color:blue; */
   color:#fff;
 }
