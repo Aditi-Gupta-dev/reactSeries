@@ -11,3 +11,24 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.todo-style li{
+  list-style: none;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #aaaaaa3d;
+}
+.todo-style{
+  display: flex;
+  align-items: center;
+
+  gap:.5rem;
+  width: 30%;
+}
+.center-div .todo-style button:hover{
+background-color: red;
+color:#fff;
+ 
+}
+.center-div button:hover{
+  background-color:blue;
+  color:#fff;
+}
