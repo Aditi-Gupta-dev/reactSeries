@@ -1,5 +1,6 @@
 import React, { useCallback, useState } from 'react'
 import List from './List';
+import AddCircleIcon from '@mui/icons-material/AddCircle';
 
 const App = () => {
     const [inputList,setInputList]=useState("");
@@ -37,7 +38,8 @@ const App = () => {
         <br/>
         <input type='text' placeholder='ex. buy vegetables' onChange={inputEvent} value={inputList}/>
         {/* value add krna imp hai nahi to input fild empty nahi hoga 😫*/}
-        <button onClick={addtoarray} > + </button>
+        
+        <button onClick={addtoarray} > <AddCircleIcon/> </button>
 
         <ol>
             {/* <li>{inputList}</li> */}

@@ -8,6 +8,6 @@ const Mui = () => {
     </div>
     </>
   )
-}
+};
 
-export default Mui
+export default Mui;
